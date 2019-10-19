@@ -104,12 +104,30 @@ $(function(){
 		// submit() - forms
 		// change() - select
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		// Ativities
 
-
-
-
-
+		// Activity 1
 
 
 	});
