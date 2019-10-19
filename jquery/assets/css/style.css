@@ -12,3 +12,9 @@
 	background: red;
 	color: #fff;
 }
+
+.main-container div{
+	padding: 10px;
+	border: 1px solid gray;
+	margin: 10px;
+}
