@@ -1,3 +1,14 @@
 .card{
 	margin-top: 40px;
 }
+
+
+#demo8{
+	display: none;
+}
+
+.demo10{
+	display: inline-block;
+	background: red;
+	color: #fff;
+}

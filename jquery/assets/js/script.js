@@ -17,6 +17,29 @@ $(function(){
 		// $('.demo5').text('lorem');
 		// $('.demo6').html("<h1>test</h1>");
 
+		// Example 3
+		$('#demo7').hide();
+		$('#demo8').show();
+		// fadeIn()
+		// fadeOut()
+		// fadeToggle()
+		// fadeTo()
+
+		// Example 4
+
+		$('.demo9').animate({'marginLeft':'100px'});
+
+		// Multiple
+		// $(".demo10").animate({
+		//     left: '250px',
+		//     opacity: '0.5',
+		//     height: '150px',
+		//     width: '150px'
+		// });
+
+
+
+
 
 
 
