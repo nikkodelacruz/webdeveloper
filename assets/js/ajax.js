@@ -10,21 +10,12 @@ $(function(){
 		// data: {param1: 'value1'},
 
 		// Example 1
-		example1();
+		// example1();
 		function example1(){
 			$.ajax({
 				url: 'demo.txt',
-				// beforeSend: function(){
-				// 	$('.demo2').html('Please wait');
-				// },
 				success: function(response){
 					$('.demo1').html(response);
-				},
-				// error: function(){
-				// 	alert('File not exist');
-				// }
-				complete: function(response){
-					console.log(response);
 				}
 			});
 		}
@@ -32,6 +23,27 @@ $(function(){
 		// Example 2
 		// example2();
 		function example2(){
+			$.ajax({
+				url: 'assets/demo.txt',
+				beforeSend: function(){
+					$('.demo1a').html('Please wait');
+				},
+				success: function(response){
+					$('.demo1a').html(response);
+				},
+				error: function(){
+					alert('File not exist');
+				},
+				complete: function(response){
+					console.log(response);
+					alert('completed');
+				}
+			});
+		}
+
+		// Example 3
+		// example3();
+		function example3(){
 			$.ajax({
 				url: 'assets/php/request.php',
 				// dataType: 'json', //expected response
@@ -41,7 +53,7 @@ $(function(){
 			});
 		}
 
-		// Example 3
+		// Example 4
 		$('.demo3').click(function(event) {
 			/* Act on the event */
 			$.ajax({
@@ -52,7 +64,7 @@ $(function(){
 			});
 		});
 
-		// Example 4
+		// Example 5
 		$('.demo7').click(function(event) {
 			/* Act on the event */
 			var name = $('.demo5').val();
@@ -71,7 +83,59 @@ $(function(){
 			});
 		});
 
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// Activities
+
+		// $.ajax({
+		// 	url: 'directory',
+		//    	type: 'POST',
+		//    	data: {
+		//    		'param' : value
+		//    	},
+		// 	success: function(response){
+		// 	},
+		// });
+
+		// Activity 1
+
+		// Activity 2
+
+		$('.act3b').click(function(event) {
+			$.ajax({
+				url: 'assets/php/json.php',
+			   	// type: 'POST',
+			   	// data: {
+			   	// 	'param' : value
+			   	// },
+			   	dataType : 'json',
+				success: function(response){
+					console.log(response);
+					alert(response.message);
+					// $('.act3a').val(response.message);
+				},
+			});
+		});
+	
 		
 	});
 	

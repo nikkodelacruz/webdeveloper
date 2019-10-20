@@ -27,7 +27,7 @@
 
 	<!-- Header navigations -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
-	 	<a class="navbar-brand text-light" href="javascript:void(0)"><span class="font-weight-bold">WEB DEVELOPMENT</span><span class="text-white-50 d-none d-md-block"><i>prepared by: Nikko Dela Cruz</i></span></a>
+	 	<a class="navbar-brand text-light" href="index.html"><span class="font-weight-bold">WEB DEVELOPMENT</span><span class="text-white-50 d-none d-md-block"><i>prepared by: Nikko Dela Cruz</i></span></a>
 	  	<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
 	    	<span class="navbar-toggler-icon"></span>
 	  	</button>
@@ -75,7 +75,7 @@
 		<!-- Example 1 -->
 		<div class="card">
 			<div class="card-body">
-				<p>Example 1: Get the text from the txt file</p>
+				<p>Example 1: Get the text from the .txt file</p>
 				<div class="demo1"></div>
 			</div>
 		</div>
@@ -83,37 +83,36 @@
 		<!-- Example 2 -->
 		<div class="card">
 			<div class="card-body">
-				<p>Example 2: Get data from PHP file</p>
-				<div class="demo2"></div>
+				<p>Example 2: Get the text from </p>
+				<div class="demo1a"></div>
 			</div>
 		</div>
 
 		<!-- Example 3 -->
 		<div class="card">
 			<div class="card-body">
-				<p>Example 3: Get data using jQuery events</p>
-				<button class="btn btn-primary demo3">Click me</button>
-				<div class="demo4"></div>
+				<p>Example 3: Get data from PHP file</p>
+				<div class="demo2"></div>
 			</div>
 		</div>
 
 		<!-- Example 4 -->
 		<div class="card">
 			<div class="card-body">
-				<p>Example 4: Send data to the file server</p>
-				<input type="text" class="form-control demo5" placeholder="Name">
-				<input type="text" class="form-control demo6" placeholder="Address">
-				<button class="btn btn-primary demo7">Click me</button>
-				<div class="demo8"></div>
+				<p>Example 4: Get data using jQuery events</p>
+				<button class="btn btn-primary demo3">Click me</button>
+				<div class="demo4"></div>
 			</div>
 		</div>
 
 		<!-- Example 5 -->
 		<div class="card">
 			<div class="card-body">
-				<p>Example 5: Get data using jQuery events</p>
-				<button class="btn btn-primary demo3">Click me</button>
-				<div class="demo4"></div>
+				<p>Example 5: Send data to the file server</p>
+				<input type="text" class="form-control demo5" placeholder="Name">
+				<input type="text" class="form-control demo6" placeholder="Address">
+				<button class="btn btn-primary demo7">Click me</button>
+				<div class="demo8"></div>
 			</div>
 		</div>
 
@@ -126,8 +125,8 @@
 			<!-- Activity 1 -->
 			<div class="card">
 				<div class="card-body">
-					<p>Activity 1: Alert the value of the input on button click by using <code>.click()</code> method</p>
-					<input type="text" class="form-control act1a" placeholder="Enter your name">
+					<p>Activity 1: Get the text from the .txt file and display it inside the text box.</p>
+					<input type="text" class="form-control act1a" placeholder="Put it here">
 					<button class="btn btn-success act1b">Submit</button>
 				</div>
 			</div>
@@ -135,64 +134,22 @@
 			<!-- Activity 2 -->
 			<div class="card">
 				<div class="card-body">
-					<p>Activity 2: Get the sum of 2 inputed numbers and alert the result. Use <code>parseFloat()</code> function</p>
-					<input type="text" class="form-control act2a">
-					<input type="text" class="form-control act2b">
-					<button class="btn btn-success act2c">Submit</button>
+					<p>Activity 2: Get the sum of 2 numbers and display it inside the textbox. Use php to sum 2 numbers.</p>
+					<input type="text" class="act2a"> +
+					<input type="text" class="act2b"> =
+					<input type="text" class="act2c"><br>
+					<button class="btn btn-success act2d">Add</button>
 				</div>
 			</div>
-
+		
 			<!-- Activity 3 -->
 			<div class="card">
 				<div class="card-body">
-					<p>Activity 3: Get the value of inputed text inside the child on button click. You can use <code>parents(), children(), parents(), find()</code> methods</p>
-
-					<div class="main-container">
-						<div class="parent-a">
-							<input type="text" value="not me" disabled>
-							<div class="child-a">
-								Child
-								<input type="text">
-							</div>
-							<div class="child-b">
-								<button class="btn btn-success child-click">Click me</button>
-								<input type="text" value="not me" disabled>
-							</div>
-						</div>
-					</div>
-					
+					<p>Activity 3: Get the data from the JSON file.</p>
+					<input type="text" class="form-control act3a" placeholder="Put it here">
+					<button class="btn btn-success act3b">Submit</button>
 				</div>
 			</div>
-
-			<!-- Activity 4 -->
-			<div class="card">
-				<div class="card-body">
-					<p>Activity 4: Animate the heading by changing the font size to 100px on mouseenter. Use <code>animate() and mouseenter()</code> method</p>
-					<h1 class="act4">Hello World</h1>
-				</div>
-			</div>
-
-			<!-- Activity 5 -->
-			<div class="card">
-				<div class="card-body">
-					<p>Activity 5: Use <code>slideToggle()</code> method to slide the content on button click. Use <code>next()</code> method to target the next element</p>
-
-					<ul class="list-group mb-3">
-					  	<li class="list-group-item"><button class="btn btn-link act5">Click me</button></li>
-					  	<li class="list-group-item"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloribus sit commodi aliquam, illum unde, tempora natus officia tempore maxime voluptas, beatae nobis modi neque, sunt consequatur qui molestiae. Deserunt.</p></li>
-					</ul>
-					<ul class="list-group mb-3">
-					  	<li class="list-group-item"><button class="btn btn-link act5">Click me</button></li>
-					  	<li class="list-group-item"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloribus sit commodi aliquam, illum unde, tempora natus officia tempore maxime voluptas, beatae nobis modi neque, sunt consequatur qui molestiae. Deserunt.</p></li>
-					</ul>
-					<ul class="list-group mb-3">
-					  	<li class="list-group-item"><button class="btn btn-link act5">Click me</button></li>
-					  	<li class="list-group-item"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloribus sit commodi aliquam, illum unde, tempora natus officia tempore maxime voluptas, beatae nobis modi neque, sunt consequatur qui molestiae. Deserunt.</p></li>
-					</ul>
-
-				</div>
-			</div>
-
 
 		</div>
 

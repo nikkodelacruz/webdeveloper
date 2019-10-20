@@ -23,6 +23,8 @@ $(function(){
 		// fadeToggle()
 		// fadeTo()
 		// remove()
+		// append()
+		// addClass()
 
 		// Example 4
 		$('.demo9').animate({'marginLeft':'100px'});
