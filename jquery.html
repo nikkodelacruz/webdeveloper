@@ -16,40 +16,46 @@
   	<!-- Fontawesome -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-  	<!-- Custom JS -->
-  	<script src="assets/js/script.js"></script>
+ 	<!-- Custom JS -->
+  	<script src="assets/js/jquery.js"></script>
+
+  	<!-- Custom STYLE -->	
   	<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
 
 	<!-- Header navigations -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-info">
-	 	<a class="navbar-brand text-light" href="javascript:void(0)"><span class="font-weight-bold">WEB DEVELOPMENT</span><span class="text-white-50 d-md-block"><i>prepared by: Nikko Dela Cruz</i></span></a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+	 	<a class="navbar-brand text-light" href="javascript:void(0)"><span class="font-weight-bold">WEB DEVELOPMENT</span><span class="text-white-50 d-md-block d-none"><i>prepared by: Nikko Dela Cruz</i></span></a>
 	  	<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
 	    	<span class="navbar-toggler-icon"></span>
 	  	</button>
 	  	<div class="navbar-collapse collapse" id="navb" style="">
 	    	<ul class="navbar-nav ml-auto">
 	      		<li class="nav-item">
-	        		<a class="nav-link font-weight-bold btn btn-success text-white" href="http://localhost/training/jquery">JQUERY</a>
+	        		<a class="nav-link font-weight-bold btn btn-success text-white" href="http://localhost/training/jquery.html">JQUERY</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link text-black-50 font-weight-bold" href="http://localhost/training/ajax">AJAX</a>
+	        		<a class="nav-link text-black-50 font-weight-bold" href="http://localhost/training/ajax.html">AJAX</a>
 	      		</li>
 	      		<li class="nav-item">
 	        		<a class="nav-link text-black-50 font-weight-bold" target="_blank" href="http://nikkodelacruz.github.io/">PORTFOLIO</a>
 	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link text-black-50 font-weight-bold" target="_blank" href="http://nikkodelacruz.github.io/">WORDPRESS</a>
+	      		</li>
 	    	</ul>
 	  	</div>
 	</nav>
-
+	
+	<div class="py-5"></div>
 
 	<div class="container bg-gray my-5">
-		<h1><i class="fas fa-code text-primary"></i> JQuery</h1>
+		<h1><i class="fas fa-code text-primary"></i> jQuery (Javascript Query)</h1>
 
 		<div class="bg-light p-2">
-			<p>Basic syntax is: <code>$(selector).action()</code></p>
+			<p>Basic syntax: <code>$(selector).action()</code></p>
 			<p>A $ sign to define/access jQuery</p>
 			<p>A (selector) to "query (or find)" HTML elements</p>
 			<p>A jQuery action() to be performed on the element(s)</p>
@@ -66,42 +72,38 @@
 			</div>
 		</div>
 
+		<!-- Example 1 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 1 -->
 				<p>Example 1: Getting the value/text/html</p>
 				<input type="text" class="form-control demo1" id="demo1" value="lorem ipsum">
 				<p class="demo2">Lorem ipsum</p>
 				<div class="demo3"><p>Hello world</p></div>
-
 			</div>
 		</div>
 
-
+		<!-- Example 2 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 2 -->
 				<p>Example 2: Setting the value/text/html</p>
 				<input type="text" class="form-control demo4" id="demo4">
 				<p class="demo5"></p>
 				<div class="demo6"></div>
-
 			</div>
 		</div>
 
-
+		<!-- Example 3 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 3 -->
 				<p>Example 3: Hide/Show</p>
 				<p id="demo7">Hide me</p>
 				<p id="demo8">Show me</p>
 			</div>
 		</div>
 
+		<!-- Example 4 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 4 -->
 				<p>Example 4: Animation</p>
 				<p class="demo9">Animate me</p>
 				<p class="demo10">Animate me</p>
@@ -109,11 +111,10 @@
 			</div>
 		</div>
 
+		<!-- Example 5 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 5 -->
 				<p>Example 5: Traversing - selecting elements based on their relation to other elements</p>
-				
 				<div class="main-container">
 					<div class="grandparent">Granparent
 						<div class="grandparent">Granparent
@@ -128,23 +129,18 @@
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 		</div>
 
+		<!-- Example 6 -->
 		<div class="card">
 			<div class="card-body">
-				<!-- Example 6 -->
 				<p>Example 6: Events Methods</p>
 				<p><button class="btn btn-primary demo11">Click me</button></p>
 				<p><button class="btn btn-success demo12">Click here</button></p>
-
 				<p><a href="#" class="demo13">Hello</a></p>
 				<p><a href="#" class="demo14">Hover me</a></p>
-
 				<p><button class="btn demo15">Try me</button></p>
-
 			</div>
 		</div>
 
