@@ -5,19 +5,22 @@ $(function(){
 		// jQuery methods go here...
 		
 		// Example 1
-		// var demo1 = $('.demo1').text();
-		// var demo2 = $('.demo2').text();
-		// var demo3 = $('.demo3').html();
-		// console.log(demo3);
+		// Get a value
+		// Get a text
+		// Get a html
 
+		/*============================================================*/
+		
 		// Example 2 
-		// $('.demo4').val('lorem');
-		// $('.demo5').text('lorem');
-		// $('.demo6').html("<h1>test</h1>");
+		// Set a value
+		// Set a text
+		// Set a html
+
+		/*============================================================*/
 
 		// Example 3
-		$('#demo7').hide();
-		$('#demo8').show();
+		// hide();
+		// show();
 		// fadeIn()
 		// fadeOut()
 		// fadeToggle()
@@ -26,39 +29,48 @@ $(function(){
 		// append()
 		// addClass()
 
-		// Example 4
-		$('.demo9').animate({'marginLeft':'100px'});
+		/*============================================================*/		
 
+		// Example 4
+		// Single
 		// Multiple
-		// $(".demo10").animate({
-		//     left: '250px',
-		//     opacity: '0.5',
-		//     height: '150px',
-		//     width: '150px'
-		// });
+
+		/*============================================================*/
 
 		// Example 5
-		$('.child').parent().css({'border-color':'red'});
 
-		$('.parent').children().css({'border-color':'green'});
-
-		$('.parent').children('.child1').css({'border-color':'blue'});
-
-		$('.parent').find('.child3-1').animate({'marginLeft':'100px'}); // within parent
-
-		$('.child3-1').parents('.grandparent').animate({'marginLeft':'100px'});
-
-		// $('.child3-1').closest('.grandparent').animate({'marginLeft':'100px'}); // target the first parent
-
-		// siblings()
-		// next()
-		// prev()
+		// First parent
+		// All child
+		// Specific child
+		// Find specific child inside a parent
+		// Select specifi parent
+		// Select nearest parent
 
 
+		// $('.child').parent().css({'border-color':'red'}); // first parent
+		// $('.parent').children().css({'border-color':'green'}); // all child
+		// $('.parent').children('.child1').css({'border-color':'blue'}); //specific child
+		// $('.parent').find('.child3-1').animate({'marginLeft':'100px'}); // find specific child within parent
+		// $('.child3-1').parents('.grandparent').animate({'marginLeft':'100px'}); // select specific parent
+		// $('.child3-1').closest('.grandparent').animate({'marginLeft':'100px'}); // target the nearest parent
+
+		// next() // next element
+		// prev() // previous element
+		// siblings() // all next and previous elements as long as it is within the element
+
+		/*============================================================*/
 
 		// Example 6
+
+		// Single click
+		// Double click
+		// By document
+		// Mouse enter
+		// Mouse leave
+		// Hover
+		// Multiple events
+
 		$('.demo11').click(function(event) {
-			/* Act on the event */
 			alert('You clicked a button');
 		});
 
@@ -130,6 +142,8 @@ $(function(){
 		// Ativities
 
 		// Activity 1
+
+		// Activity 2
 
 
 	});
